@@ -1,4 +1,4 @@
-﻿StreamReader reader = new("input.txt");
+﻿using StreamReader reader = new("input.txt");
 string input = reader.ReadToEnd();
 string[] lines = input.Split(Environment.NewLine);
 

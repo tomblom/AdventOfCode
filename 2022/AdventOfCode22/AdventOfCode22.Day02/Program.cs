@@ -8,7 +8,7 @@
 using System.Diagnostics;
 using Ardalis.SmartEnum;
 
-StreamReader reader = new("input.txt");
+using StreamReader reader = new("input.txt");
 
 string input = reader.ReadToEnd();
 
