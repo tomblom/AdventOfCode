@@ -14,7 +14,6 @@ Console.WriteLine($"Part Two: Overlapping assignments     = {overlappingAssignme
 
 record struct Assignment(int Start, int End)
 {
-    public int Size => Math.Abs(End - Start);
     public bool Contains(Assignment a) => Start <= a.Start && End >= a.End;
     public bool Overlaps(Assignment a) => End >= a.Start;
 }
