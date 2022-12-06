@@ -15,7 +15,7 @@ foreach (string line in stackDefinitions.Reverse().Skip(1))
 {
     foreach (StackInfo info in stackInformation)
     {
-        char crateId = line[info.Index];
+        char crateId = line[info.Index];    
         if (char.IsLetter(crateId))
         {
             stacks[info.Stack].Add(crateId);
