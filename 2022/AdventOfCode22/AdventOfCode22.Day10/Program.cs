@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using System.Linq;
 
 using StreamReader reader = new("input.txt");
 string input = reader.ReadToEnd();
