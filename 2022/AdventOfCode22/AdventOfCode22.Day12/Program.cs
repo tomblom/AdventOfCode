@@ -36,7 +36,7 @@ int minDistFromStartToEnd = distanceMap[start];
 int minDistFromLowToEnd = heightMap.Where(x => x.Value == 1)
     .Min(x => distanceMap.ContainsKey(x.Key) ? distanceMap[x.Key] : int.MaxValue);
 
-Console.WriteLine("Day Eleven:");
+Console.WriteLine("Day Twelve:");
 Console.WriteLine($"Minimum Distance from Start to End     = {minDistFromStartToEnd}");
 Console.WriteLine($"Minimum Distance from Low Point to End = {minDistFromLowToEnd}");
 
